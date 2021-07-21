@@ -76,7 +76,6 @@ messy_data4 = separate(messy3, "sex_age", into =c("Sex", "Age"))
 write.csv(messy_data4, "messy_data4.csv")
 
 
-
 #Missing Data
 ex5 = read.csv("example5.csv")
 head(ex5)
