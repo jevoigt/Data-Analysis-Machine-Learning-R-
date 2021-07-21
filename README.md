@@ -1,6 +1,8 @@
 # Data-Analysis-Machine-Learning-R-
 This repository includes files across various assignments / projects within the Rstudio environment. 
 
+Any files that are read into these scripts can be found in the Datasets file in this repository.
+
 These files are different scripts that display experience with data cleaning/manipulation, visualization, and analysis. There are also scripts that utilize 
 different machine learning methods to pull insights and display knowledge within this area. 
 
