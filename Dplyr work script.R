@@ -1,5 +1,6 @@
 library(dplyr)
 require(dplyr)
+
 1+2 %>% +3 %>% +4
 c(1,2,3,4,5) %>% sqrt %>% max
 temp = c(30,0,12,40,28)
