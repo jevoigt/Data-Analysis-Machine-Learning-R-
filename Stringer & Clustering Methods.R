@@ -6,6 +6,7 @@ require(tidyr)
 require(dplyr)
 require(ggplot2)
 
+
 #Handling Strings
 string_vec = c("ISM 645: Principles of Predictive Analytics", "IAF 601: Introduction to Data Analytics")
 
