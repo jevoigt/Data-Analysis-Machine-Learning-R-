@@ -1,6 +1,8 @@
 require(tidyverse)
 install.packages('arules')
 require(arules)
+
+#Create "baskets"
 mybasket1 = read.transactions("GroceryStore_Basket.csv", format = 'basket', sep = ",")
 mybasket2 = read.transactions("GroceryStore_Single.csv", format = "single", sep = ",",cols = c("TransactionID", "Item"), header = T)
 
