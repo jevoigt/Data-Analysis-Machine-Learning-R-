@@ -3,8 +3,8 @@ library(broom)
 setwd("/Users/JackVoigt/Documents/MSIA Files")
 wine = read.csv("wine.csv")
 
-str(wine)
 
+str(wine)
 wine = wine %>%
   mutate(log_price = log(Price))
 
