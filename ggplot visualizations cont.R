@@ -8,6 +8,7 @@ library(gridExtra)
 library(grid)
 library(gridExtra)
 
+
 df = read_excel("InusranceData.xlsx")
 
 
