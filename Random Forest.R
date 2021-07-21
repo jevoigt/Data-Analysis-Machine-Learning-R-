@@ -17,6 +17,7 @@ grade_test = testing(grade_split)
 
 logistic = glm(as.factor(pass) ~ . -final_grade, data = grade_train, family = "binomial")
 
+
 #Predicted probability 
 
 predicted_value = logistic %>%
