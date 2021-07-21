@@ -5,7 +5,6 @@ require(rpart)
 require(rpart.plot)
 
 grade = read.csv("grade.csv")
-
 str(grade)
 
 
