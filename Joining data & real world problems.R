@@ -147,6 +147,7 @@ google2 = google %>%
 head(google2)
 str(county_merged)
 
+
 county_merged2 = county_merged %>%
   inner_join(google2, by = 'State')
 
