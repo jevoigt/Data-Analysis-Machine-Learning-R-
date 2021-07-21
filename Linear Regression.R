@@ -4,6 +4,7 @@ require(ggplot2)
 require(dplyr)
 require(tidyr)
 str(wine)
+library(broom)
 
 #Simple Linear Regression
 plot1 = ggplot(wine, aes(x = AGST, y = Price)) +
@@ -12,9 +13,6 @@ plot1 = ggplot(wine, aes(x = AGST, y = Price)) +
 
 regression1 = lm(Price~AGST, data = wine)
 summary(regression1)
-
-
-library(broom)
 
 tidy(regression1)%>%
   filter(term == "AGST")%>%
