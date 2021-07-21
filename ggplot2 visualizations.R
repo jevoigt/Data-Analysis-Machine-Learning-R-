@@ -10,7 +10,6 @@ ggplot(mtcars, aes(x = cyl, y = mpg)) +
   geom_point(color = "red") +
   geom_smooth(method = "lm")
 
-
 #Video 2
 ggplot(mtcars, aes(x = brand)) +
   geom_bar(fill = "red")
